@@ -1,0 +1,114 @@
+{
+  "version" : 1,
+  "taskType" : "CLASSIC",
+  "turnpoints" : [{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" :    7.819916,
+         "lat" :   46.700691,
+         "altSmoothed" : 1290.0,
+         "name" : "BERGBO TAKE-OFF                         ",
+         "description" : "T03129        "
+       }
+       
+        ,
+        "type" : "TAKEOFF"
+       
+     },{
+       "radius" : 8000.0,
+       "waypoint" : {
+         "lon" :    7.716075,
+         "lat" :   46.748349,
+         "altSmoothed" : 1390.0,
+         "name" : "BLUME -HILL-                            ",
+         "description" : "B48139        "
+       }
+       
+        ,
+        "type" : "SSS"
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" :    7.748607,
+         "lat" :   46.716780,
+         "altSmoothed" : 1660.0,
+         "name" : "SPITZI FLUE -ROCK-                      ",
+         "description" : "B49166        "
+       }
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" :    7.909561,
+         "lat" :   46.725221,
+         "altSmoothed" : 0.0,
+         "name" : "AUGSTMATTHORN R2000 ALL HIGTS           ",
+         "description" : "B93000        "
+       }
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" :    7.716075,
+         "lat" :   46.748349,
+         "altSmoothed" : 1390.0,
+         "name" : "BLUME -HILL-                            ",
+         "description" : "B48139        "
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" :    7.812781,
+         "lat" :   46.640078,
+         "altSmoothed" : 1890.0,
+         "name" : "DAERLIGRAT                              ",
+         "description" : "B12189        "
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" :    7.909561,
+         "lat" :   46.725221,
+         "altSmoothed" : 0.0,
+         "name" : "AUGSTMATTHORN R2000 ALL HIGTS           ",
+         "description" : "B93000        "
+       }
+       
+     },{
+       "radius" : 2500.0,
+       "waypoint" : {
+         "lon" :    7.790441,
+         "lat" :   46.696171,
+         "altSmoothed" : 1160.0,
+         "name" : "BEATEINBERG                             ",
+         "description" : "B03116        "
+       }
+       
+        ,
+        "type" : "ESS"
+       
+     },{
+       "radius" : 200.0,
+       "waypoint" : {
+         "lon" :    7.823745,
+         "lat" :   46.680985,
+         "altSmoothed" : 565.0,
+         "name" : "LEHN LANDING                            ",
+         "description" : "L04057        "
+       }
+       
+     }
+  ],
+  "sss" : {
+    "type" : "RACE",
+    "direction" : "ENTER",
+    "timeGates" : ["14:00:00Z"]
+  },  
+  "goal" : {
+    "type" : "CYLINDER",
+    "deadline" : "17:00:00Z"
+  }
+}
